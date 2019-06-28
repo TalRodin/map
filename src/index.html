@@ -5,17 +5,24 @@
                 <meta charset='utf-8' />
                 <title>Display a map with a custom style</title>
                 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-                <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
-                <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script> 
+             <!-- <link href='https://api.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' /> -->
+               <!-- <link href='https://api.mapbox.com/mapbox-assembly/mbx/v0.18.0/assembly.min.css' rel='stylesheet'>  -->
+              
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
                 <style>
                 body { margin:0; padding:0; }
-                #map { position:absolute; top:0; bottom:0; width:100%; }
+                #map { position: 'absolute'; top:0; bottom:0; width:100%; }
+                
                 </style>
         </head>
 
 <body>
- 
-<div id='map'></div>
+        <div id="root"> </div>
+        <!-- <script src='https://api.mapbox.com/mapbox-assembly/mbx/v0.18.0/assembly.js'></script> -->
+<!-- <div id='map'></div>
+
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiYWx5b25hMzY5IiwiYSI6ImNqdjJpNmJtYTB5Z2Y0M3FvOWhmaXNjaGMifQ.txRzLjUoPfWI6PdECMIQdw';
 bounds=[-175,-60.051129,191,84.051129]
@@ -27,7 +34,7 @@ zoom: 0, // starting zoom
 maxBounds:bounds
 });
 
-</script>
+</script> -->
 
 </body>
 
